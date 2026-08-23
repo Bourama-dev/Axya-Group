@@ -24,7 +24,8 @@
 
 <!-- Favicon -->
 <link rel="icon" href="/assets/favicon.ico" sizes="any">
-<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/favicon-32x32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="/assets/favicon-16x16.png" type="image/png" sizes="16x16">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link rel="manifest" href="/assets/site.webmanifest">
 <meta name="theme-color" content="#05060a">
@@ -146,7 +147,6 @@
   .venture .logo-cleavenir{ height:96px; width:auto; margin-bottom:18px; }
   .venture .logo-hakily{
     height:auto; width:100%; max-width:300px; margin-bottom:22px;
-    border-radius:10px; /* smooths the seam if the flat bg isn't a perfect pixel match */
   }
   .venture h2{
     position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); /* sr-only, image carries the visible wordmark */
@@ -175,7 +175,7 @@
     transition:transform .25s ease, box-shadow .25s ease;
   }
   .venture.cleavenir a.cta{ background:linear-gradient(90deg, var(--magenta), var(--pink)); box-shadow:0 8px 24px -8px rgba(239,47,119,0.5); }
-  .venture.hakily a.cta{ background:linear-gradient(90deg, var(--blue), var(--cyan)); box-shadow:0 8px 24px -8px rgba(34,217,198,0.4); }
+  .venture.hakily a.cta{ background:linear-gradient(90deg, #4b6bfd, var(--cyan)); box-shadow:0 8px 24px -8px rgba(34,217,198,0.4); }
   .venture a.cta:hover{ transform:translateY(-2px); }
   .venture a.cta:focus-visible{ outline:2px solid var(--text); outline-offset:3px; }
 
@@ -277,7 +277,7 @@
     <section class="ventures" aria-label="Nos projets">
 
       <div class="venture cleavenir">
-        <img class="logo-cleavenir" src="assets/cleavenir-logo.png" alt="CléAvenir" width="384" height="455">
+        <img class="logo-cleavenir" src="assets/cleavenir-logo.png" alt="CléAvenir" width="500" height="500">
         <h2>CléAvenir</h2>
         <div class="divider"></div>
         <p>Plateforme d'orientation intelligente pour aider les jeunes à trouver leur voie.</p>
@@ -287,7 +287,7 @@
       <div class="divider-v" aria-hidden="true"></div>
 
       <div class="venture hakily">
-        <img class="logo-hakily" src="assets/hakily-logo.png" alt="Hakily" width="1166" height="285">
+        <img class="logo-hakily" src="assets/hakily-logo.png" alt="Hakily" width="1166" height="352">
         <h2>Hakily</h2>
         <div class="divider"></div>
         <p>Agents IA et automatisations pour les TPE &amp; PME.</p>
