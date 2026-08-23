@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://axyagroup.fr/sitemap.xml
