@@ -179,6 +179,16 @@
   .venture a.cta:hover{ transform:translateY(-2px); }
   .venture a.cta:focus-visible{ outline:2px solid var(--text); outline-offset:3px; }
 
+  /* ---------- VIDEO ---------- */
+  .showreel{ padding-bottom:100px; text-align:center; }
+  .showreel .frame{
+    max-width:960px; margin:0 auto;
+    border:1px solid var(--line); border-radius:16px; overflow:hidden;
+    background:var(--bg-soft);
+    box-shadow:0 30px 80px -30px rgba(75,107,253,0.25);
+  }
+  .showreel video{ display:block; width:100%; height:auto; aspect-ratio:16/9; background:#000; }
+
   /* ---------- FOOTER ---------- */
   footer{
     border-top:1px solid var(--line);
@@ -294,6 +304,14 @@
         <a class="cta" href="https://hakily.fr" target="_blank" rel="noopener">hakily.fr</a>
       </div>
 
+    </section>
+    <section class="showreel" aria-label="Présentation d'Axya Group">
+      <div class="frame">
+        <video controls playsinline preload="metadata" poster="assets/axya-group-poster.jpg" width="1280" height="720">
+          <source src="assets/axya-group.mp4" type="video/mp4">
+          Votre navigateur ne supporte pas la lecture vidéo.
+        </video>
+      </div>
     </section>
   </main>
 
