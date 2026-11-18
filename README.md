@@ -10,6 +10,15 @@ une seule page statique sans état, sans routing dynamique et sans besoin de
 build — un framework n'apporterait ici que de la complexité de déploiement pour
 aucun bénéfice.
 
+## Design
+
+Thème clair inspiré de tryholo.ai : navigation en pilules qui se rétracte au
+scroll, typographie Outfit, dégradé de marque (magenta → violet → bleu → cyan),
+texte manifeste révélé mot à mot, étapes avec rail de progression, bento de
+valeurs et FAQ en accordéon. La mascotte **Axi** (`assets/axi.webp`, variante
+web `assets/axi-700.webp`) apparaît dans le hero, dans la section « Approche »
+(un bras mis en avant par étape), dans les valeurs et dans le CTA final.
+
 ## Structure
 
 ```
