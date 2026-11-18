@@ -12,12 +12,26 @@ aucun bénéfice.
 
 ## Design
 
-Thème clair inspiré de tryholo.ai : navigation en pilules qui se rétracte au
-scroll, typographie Outfit, dégradé de marque (magenta → violet → bleu → cyan),
-texte manifeste révélé mot à mot, étapes avec rail de progression, bento de
-valeurs et FAQ en accordéon. La mascotte **Axi** (`assets/axi.webp`, variante
-web `assets/axi-700.webp`) apparaît dans le hero, dans la section « Approche »
-(un bras mis en avant par étape), dans les valeurs et dans le CTA final.
+Charte Axya : fond bleu nuit, dégradés bleu → cyan → violet, wordmark AXYA
+(X en dégradé) avec la ligne « GROUP ». La page d'accueil suit la maquette du
+hero : navigation avec indicateur actif qui glisse, scène des trois mascottes
+(Axi pour Axya, la chouette pour Hakily, le panda roux pour CléAvenir), cartes
+flottantes, compteurs et vague de particules animée (canvas).
+
+Motion design : entrées échelonnées, parallaxe des mascottes à la souris,
+arc lumineux en rotation, cartes inclinées en 3D, boutons magnétiques,
+manifeste révélé mot à mot, étapes avec rail de progression, bandeaux
+défilants. Tout est désactivé si l'utilisateur a demandé moins d'animations
+(`prefers-reduced-motion`).
+
+Vidéo : le bouton « Voir la vidéo » ouvre une modale. Renseigner l'attribut
+`data-src` du `<dialog id="video">` dans `index.html` (URL d'intégration
+YouTube/Vimeo ou fichier `.mp4`) ; sans URL, la modale affiche « La vidéo
+arrive bientôt ».
+
+Images des mascottes : `assets/axi-700.webp`, `assets/hakily-owl.webp`,
+`assets/cleavenir-panda.webp`, `assets/mascots-trio.webp` (`assets/axi.webp`
+est la version haute définition d'Axi).
 
 ## Structure
 
