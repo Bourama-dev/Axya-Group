@@ -24,10 +24,10 @@ manifeste révélé mot à mot, étapes avec rail de progression, bandeaux
 défilants. Tout est désactivé si l'utilisateur a demandé moins d'animations
 (`prefers-reduced-motion`).
 
-Vidéo : le bouton « Voir la vidéo » ouvre une modale. Renseigner l'attribut
-`data-src` du `<dialog id="video">` dans `index.html` (URL d'intégration
-YouTube/Vimeo ou fichier `.mp4`) ; sans URL, la modale affiche « La vidéo
-arrive bientôt ».
+Vidéo : `assets/axya-group.mp4` (poster `assets/axya-group-poster.jpg`) est
+intégrée dans la section « En vidéo » sous les marques, et le bouton « Voir la
+vidéo » du hero l'ouvre dans une modale (attribut `data-src` du
+`<dialog id="video">`).
 
 Images des mascottes : `assets/axi-700.webp`, `assets/hakily-owl.webp`,
 `assets/cleavenir-panda.webp`, `assets/mascots-trio.webp` (`assets/axi.webp`
